@@ -9,22 +9,23 @@ The dataset used in this project is Churn_Modelling.csv, which contains customer
 ## Project Structure
 The project is structured as follows:
 
-## Data exploration and preprocessing
-Feature engineering
-Model selection and hyperparameter tuning
-Model evaluation
-Feature importance analysis
-Handling class imbalance
-Recommendations and insights
-Conclusion and future work
+- Data exploration and preprocessing
+- Feature engineering
+- Model selection and hyperparameter tuning
+- Model evaluation
+- Feature importance analysis
+- Handling class imbalance
+- Recommendations and insights
+- Conclusion and future work
 
 ## Models Used
 Three classification models were employed in this project:
 
-Decision Tree
-Random Forest
-Gradient Boosting
+- Decision Tree
+- Random Forest
+- Gradient Boosting
 Hyperparameter tuning was performed using GridSearchCV to find the best parameters for each model.
+Crossfold validation was performed on the Random Forest model to validate the accuracy.
 
 ## Results
 The Random Forest model with hyperparameter tuning achieved the best performance, with an accuracy of 86%. The model's performance was evaluated using accuracy score, classification report, confusion matrix, and ROC curve.
