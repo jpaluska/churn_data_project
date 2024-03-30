@@ -24,6 +24,7 @@ Three classification models were employed in this project:
 - Decision Tree
 - Random Forest
 - Gradient Boosting
+
 Hyperparameter tuning was performed using GridSearchCV to find the best parameters for each model.
 Crossfold validation was performed on the Random Forest model to validate the accuracy.
 
